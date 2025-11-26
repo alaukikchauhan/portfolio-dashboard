@@ -25,6 +25,8 @@ A full-stack portfolio management application with user authentication, portfoli
 
 ### Prerequisites
 
+- Go To Terminal and run ```cd frontend```-> ```npm install```
+- Go To Terminal and run ```cd backend```-> ```npm install```
 - Docker and Docker Compose installed
 
 ### Running the Project
