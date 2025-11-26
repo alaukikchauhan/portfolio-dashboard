@@ -1,0 +1,64 @@
+# Portfolio Management Dashboard
+
+A full-stack portfolio management application with user authentication, portfolio overview with charts, transaction history, and investment management capabilities.
+
+## Tech Stack
+
+- Frontend: Next.js with TypeScript, Bootstrap 5, and Chart.js
+- Backend: Node.js with Express and TypeScript
+- Database: MongoDB
+- Authentication: JWT
+- Containerization: Docker and Docker Compose
+
+## Features
+
+- User Registration and Login (Auto-creates default portfolio)
+- JWT-based Authentication
+- Portfolio Management (Create multiple portfolios)
+- Investment Tracking (Stocks and Mutual Funds)
+- Transaction History
+- Interactive Charts for Portfolio Visualization
+- Asset Summary Dashboard with Performance Metrics
+- Add/Edit/Delete Investments (Manage Investments page)
+
+## Setup and Run
+
+### Prerequisites
+
+- Docker and Docker Compose installed
+
+### Running the Project
+
+1. Clone or navigate to the project directory
+2. Run the following command to build and start all services:
+
+```bash
+docker-compose up --build
+```
+
+3. Access the application:
+   - Frontend: http://localhost:3001
+   - Backend API: http://localhost:5001
+   - MongoDB: localhost:27017
+
+**Note:** Docker will first try to build and start the services. If you get port conflicts, you can change the ports in docker-compose.yml to any available ports.
+
+## Project Structure
+
+- `frontend/`: Next.js application
+- `backend/`: Node.js Express API with TypeScript
+- `docker-compose.yml`: Orchestrates all services
+- `Dockerfile`: Build instructions for each service
+
+## Environment Variables
+
+- Backend uses `MONGODB_URI`, `JWT_SECRET`, `PORT`
+- Frontend uses `NEXT_PUBLIC_API_URL` for API endpoint
+
+## API Endpoints
+
+- `POST /api/auth/register`: Register a new user
+- `POST /api/auth/login`: Login user
+- `GET /api/portfolio`: Get user portfolios
+- `POST /api/portfolio/create`: Create a new portfolio
+- `POST /api/portfolio/add-investment`: Add investment to portfolio
