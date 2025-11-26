@@ -62,3 +62,9 @@ docker-compose up --build
 - `GET /api/portfolio`: Get user portfolios
 - `POST /api/portfolio/create`: Create a new portfolio
 - `POST /api/portfolio/add-investment`: Add investment to portfolio
+
+## Previews
+<img width="1440" height="726" alt="Screenshot 2025-11-26 at 6 56 42 PM" src="https://github.com/user-attachments/assets/96cac172-f2dc-4c52-b2ac-c725ad2f5848" /><img width="1440" height="718" alt="Screenshot 2025-11-26 at 7 00 35 PM" src="https://github.com/user-attachments/assets/a151ce3f-c3e9-4591-b326-c36be06f06d3" />
+<img width="1440" height="719" alt="Screenshot 2025-11-26 at 7 00 14 PM" src="https://github.com/user-attachments/assets/55641f12-a567-4be3-9d62-746e64d3579e" />
+<img width="1440" height="712" alt="Screenshot 2025-11-26 at 6 59 50 PM" src="https://github.com/user-attachments/assets/64f3c36c-27d0-4d89-8b0e-40ae499e7e13" />
+<img width="1440" height="721" alt="Screenshot 2025-11-26 at 6 57 44 PM" src="https://github.com/user-attachments/assets/c9667947-c874-4a51-a511-7b7f581ff538" />
